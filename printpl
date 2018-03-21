@@ -10,7 +10,7 @@ decode_pl = { '¡' : 'ą',
               '«' : 'ń',
               '±' : 'ś',
               '»' : 'ż',
-              '¹' : 'ź',
+              '¹' : 'ź'}
 
 for line in sys.stdin:
     line_l = list(line)
